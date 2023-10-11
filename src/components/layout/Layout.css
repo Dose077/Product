@@ -1,0 +1,97 @@
+header {
+  background-color: orange;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.category-link, .category-res-link {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.category-link:hover, .category-res-link:hover {
+  color: #000;
+}
+
+header .active {
+  color: dodgerblue  ;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-res {
+  position: fixed;
+  top: 68px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1e53 ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-res-menu {
+  right: 0;
+  left: 0;
+  background-color: #1c1e53;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.category-res-link {
+  font-size: 20px;
+}
+
+.nav-res-item {
+  width: 100%;
+}
+
+.menu-open {
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  top: 18px;
+  right: 12px;
+}
+footer{
+  background: orange;
+}
+.title{
+  text-align: center;
+  color: white;
+}
+@media (max-width: 550px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}
